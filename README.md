@@ -1,2 +1,1 @@
-# Dataiku-portfolio
-I'm building this portfolio to document my journey learning Dataiku and developing professional data preparation skills. Each project includes business context, data cleaning, transformations, and datasets prepared for analytics and machine learning.
+This project focuses on cleaning and transforming hotel booking data using Dataiku DSS. The objective is to build a reliable and consistent dataset by correcting data quality issues, transforming variables, integrating external data sources and creating new analytical features. The final dataset is prepared for business analysis and serves as the foundation for later Machine Learning tasks.
