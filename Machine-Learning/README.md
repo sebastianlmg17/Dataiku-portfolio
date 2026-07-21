@@ -1,43 +1,28 @@
-# Titanic Survival Analysis - Dataiku & Machine Learning
+# Machine Learning Projects
 
 ## Overview
 
-This project analyzes the Titanic dataset to identify the main factors that influenced passenger survival and prepare the data for a machine learning model.
+This section contains machine learning projects developed to practice the process of building predictive models using real-world datasets.
 
-## Objectives
+The projects cover different stages of the machine learning workflow, including data exploration, data preparation, model training, and evaluation.
 
-- Explore the Titanic dataset and understand its main characteristics.
-- Clean and prepare the data for analysis.
-- Handle missing values and categorical variables.
-- Analyze relationships between passenger information and survival.
-- Build a classification model to predict survival.
+## Tools & Technologies
 
-## Tools
-
-- Dataiku
 - Python
-- Machine Learning
-- GitHub
+- Dataiku
+- Machine Learning algorithms
+- Data analysis techniques
 
-## Workflow
+## Learning Objectives
 
-- Data exploration
-- Data cleaning
-- Variable preparation
-- Model training and evaluation
+Through these projects, I am developing practical skills in:
 
-## Dataset
+- Understanding and preparing datasets for machine learning.
+- Analyzing relationships between variables.
+- Applying machine learning algorithms.
+- Evaluating model performance.
+- Building complete machine learning workflows.
 
-The dataset contains information about Titanic passengers, including:
+## Projects
 
-- Age
-- Gender
-- Passenger class
-- Fare
-- Family information
-- Embarkation location
-- Survival status
-
-## Project Goal
-
-Practice the complete workflow of a data analysis and machine learning project, from raw data preparation to model evaluation.
+Each project includes its own documentation, methodology, and results.
