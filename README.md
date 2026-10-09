@@ -8,7 +8,7 @@ Etapa 01 en definición. Infraestructura documental inicial aprobada el 9 de oct
 
 ## Alcance pendiente de validación
 
-Candidato: ETF Nasdaq-100 que el usuario posee en IBKR. Ticker, ISIN y mercado pendientes de identificación. Se evaluará su idoneidad para M15 sin apalancamiento antes de seleccionarlo.
+Candidato en evaluación: ETF Nasdaq-100. La selección definitiva del instrumento está pendiente de aprobación. Se evaluará su idoneidad para M15 sin apalancamiento antes de seleccionarlo.
 
 ## Documentación
 
@@ -19,3 +19,7 @@ Candidato: ETF Nasdaq-100 que el usuario posee en IBKR. Ticker, ISIN y mercado p
 ## Forma de trabajo
 
 Consultar y obtener aprobación antes de cualquier creación o modificación. Explicar cada paso y su criterio. Auditar el proyecto al terminar cada etapa. Diseñar para evolución a largo plazo. ML, DL y NLP se incorporarán únicamente si aportan valor demostrado.
+
+## Contenido anterior
+
+Los archivos de `Machine-Learning/` proceden del uso anterior de este repositorio y se conservan como referencia histórica; no forman parte del sistema QuantEdge.
