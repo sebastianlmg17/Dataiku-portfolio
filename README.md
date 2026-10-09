@@ -19,7 +19,3 @@ Candidato en evaluación: ETF Nasdaq-100. La selección definitiva del instrumen
 ## Forma de trabajo
 
 Consultar y obtener aprobación antes de cualquier creación o modificación. Explicar cada paso y su criterio. Auditar el proyecto al terminar cada etapa. Diseñar para evolución a largo plazo. ML, DL y NLP se incorporarán únicamente si aportan valor demostrado.
-
-## Contenido anterior
-
-Los archivos de `Machine-Learning/` proceden del uso anterior de este repositorio y se conservan como referencia histórica; no forman parte del sistema QuantEdge.
