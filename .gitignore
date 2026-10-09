@@ -1,0 +1,13 @@
+# Entorno local y credenciales
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+# Datos de cuenta y ejecución local
+private/
+data/
+logs/
