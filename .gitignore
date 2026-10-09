@@ -11,3 +11,43 @@ __pycache__/
 private/
 data/
 logs/
+
+# Secretos y autenticación, a cualquier profundidad
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+secrets/
+credentials/
+**/credentials*.json
+**/token*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+.netrc
+.npmrc
+.pypirc
+# Cuentas, datos y artefactos privados
+accounts/
+statements/
+exports/
+backups/
+*.log
+*.sqlite*
+*.db
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+.ipynb_checkpoints/
+# Artefactos de desarrollo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
