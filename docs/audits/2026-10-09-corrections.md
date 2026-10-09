@@ -49,3 +49,26 @@ Pendiente: acceso autenticado a metadatos de GitHub. El bloqueo no impide comple
 ## Paso 7 — Verificación previa a publicación
 Resultado: aprobado con observaciones.
 Evidencia: enlaces Markdown locales resuelven; git diff --check pasa; búsqueda de patrones de claves privadas, tokens GitHub y claves AWS en documentos actuales sin coincidencias. Archivos nuevos revisados junto a los cambios. Solo documentación y .gitignore; no hay código de estrategia ni conexión al broker. Observación: escaneo acotado, sin garantía exhaustiva sobre credenciales o historia antigua.
+
+## Paso 8 — Commit y publicación
+Resultado: bloqueado para publicación; aprobado para commit local.
+Evidencia: commit 6677104 guarda las correcciones (8 archivos, 194 inserciones y 8 eliminaciones). git push origin main falla: «could not read Username for https://github.com: Device not configured». Comprobación SSH alternativa en modo BatchMode y StrictHostKeyChecking falla por host key desconocida; no se aceptan claves ni se altera configuración. No se ha publicado ni conciliado el remoto mediante push.
+Pendiente: autenticación Git válida, seguida de fetch, comprobación de ascendencia y push normal. Si el remoto cambia con divergencia, revisar antes de proceder. No reconstruir commits mediante API porque alteraría sus identidades.
+
+## Paso 9 — Auditoría final
+Resultado global: bloqueado para cierre completo de la solicitud.
+Resultado documental: aprobado con observaciones.
+Evidencia: comprobación merge-base --is-ancestor confirma conservación de origin/main previo y de los cinco commits locales; enlaces internos válidos; diff --check correcto; 12 exclusiones y dos ejemplos permitidos comprobados; revisión acotada de patrones sensibles sin hallazgos en documentos actuales.
+
+- Roadmap: 14 títulos aprobados documentados; criterios y entregables propuestos separados.
+- Auditoría: protocolo por paso y registro de esta ejecución disponibles.
+- Protección: .gitignore y política reforzados; historia antigua no certificada.
+- NQSE: identificación y origen documentados; M15 y contrato actual pendientes de validación.
+- Cinco commits: revisados y conservados; publicación pendiente por autenticación.
+- About: texto preparado; actualización pendiente por acceso autenticado.
+
+La etapa 01 permanece abierta. No se han tomado nuevas decisiones de estrategia, capital, riesgo, tecnología o selección del instrumento. No se han ejecutado órdenes, borrado archivos, reescrito historia ni hecho force push. sources/ del espejo ChatGPT no se ha modificado.
+
+## Paso 10 — Conservación del informe final
+Resultado: aprobado para registro local.
+Acción: guardar este informe mediante un commit adicional, sin amend. El SHA final y estado local/remoto se entregan con la verificación posterior. Los pasos 6 y 8 continúan bloqueados; no se declara completada la publicación.
